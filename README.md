@@ -1,2 +1,2 @@
-# Mini-Task---Lussa-Bootcamp
+# Mini-Task-Lussa-Bootcamp
 Tugas mini website 
