@@ -200,6 +200,23 @@ ul li a {
     letter-spacing: 7px;
 }
 
+.button-text ul li a {
+    background-color: #293462;
+    color: #DBE6FD;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.button-text ul li a:hover {
+    background-color: #fdbe57;
+    color: #293462;
+}
+
 /* CSS untuk container-content2 */
 
 .bg2 {
