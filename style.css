@@ -455,6 +455,13 @@ label {
     margin-top: 15px;
 }
 
+.bg-login .form-container form button:hover {
+    background-color: #DBE6FD;
+    border: 1px solid #DBE6FD;
+    color: #293462;
+    cursor: pointer;
+}
+
 /* CSS bagian log-in */
 .bg-login {
     background: url(images/bg-signup.jpg);
@@ -505,5 +512,12 @@ label {
 
 .bg-login .form-container form .form-group label a.forgotpw:hover {
     color: #DBE6FD;
+}
+
+.bg-signup .form-container form button:hover {
+    background-color: #DBE6FD;
+    border: 1px solid #DBE6FD;
+    color: #293462;
+    cursor: pointer;
 }
 
