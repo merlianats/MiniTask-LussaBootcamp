@@ -282,6 +282,10 @@ hr {
     border-radius: 3px;
 }
 
+.container-content2 .bg2 .box .img-box:hover {
+    background-color: #DBE6FD;
+}
+
 .detail-box2{
     margin-left: 80px;
     margin-top: -30px;
@@ -319,6 +323,10 @@ hr {
     padding: 15px;
     border: 1px solid #000;
     border-radius: 3px;
+}
+
+.container-content2 .bg2 .box2 .img-box2:hover {
+    background-color: #DBE6FD;
 }
 
 .detail-box3{
@@ -359,6 +367,10 @@ hr {
     padding: 15px;
     border: 1px solid #000;
     border-radius: 3px;
+}
+
+.container-content2 .bg2 .box3 .img-box3:hover {
+    background-color:#DBE6FD;
 }
 
 /* CSS bagian footer */
