@@ -1,2 +1,2 @@
-# Mini-Task-Lussa-Bootcamp
-Tugas mini website 
+# Mini Task
+Tugas mini website dengan commit dan push di github
