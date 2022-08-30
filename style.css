@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    
+} */
+
+/* CSS untuk navbar 1 */
+
+.navbar-1 {
+    height: 80px;
+    background-color:#DBE6FD;
+}
+
+/* .email {
+    float: left;
+    margin-left: 30px;
+    line-height: 100px;
+} */
+
+ul.email {
+    float: left;
+    margin-left: 127px;
+    line-height: 80px;
+    letter-spacing: 1px;
+}
+
+ul.email li a img {
+    padding-right: 9px;
+}
+
+ul.email li a {
+    font-size: 20px;
+    color: #0b0f12;
+}
+
+ul.email li a:hover {
+    color: #7A86B6;
+    text-decoration: underline;
+}
+
+h2 {
+    line-height: 80px;
+    display: inline-block;
+    margin-left: 200px;
+    letter-spacing: 4px;
+    font-size: 27px;
+    color: #293462;
+    font-style: italic;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73);
+}
+
+h3 {
+    line-height: 80px;
+    float: right;
+    margin-right: 60px;
+    color: #0b0f12;
+    font-size: 23px;
+    letter-spacing: 4px;
+    font-family: 'Reenie Beanie', cursive;
+    /* text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73); */
+}
+
+/* CSS untuk navbar 2 */
+
+.navbar-2 {
+    height: 90px;
+    background-color: #293462;
+}
+
+ul.menu-bar {
+    float: left;
+    margin-left: 127px;
+    line-height: 90px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+ul.menu-bar li a {
+    color: #ecf3fc;
+    font-size: 19px;
+}
+
+ul.menu-bar li a.menu:hover {
+    color: #7A86B6;
+    text-decoration: underline;
+}
+
+a.sign-up {
+    margin-left: 400px;
+    line-height: 90px;
+    background-color: #7A86B6;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 12px 23px 12px 23px;
+    text-align: center;
+}
+
+a.sign-up:hover {
+    background-color: #ecf3fc;
+    color: #7A86B6;
+    text-decoration: none;
+}
+
+a.log-in {
+    padding-left: 1px;
+    line-height: 90px;
+    background-color: #7A86B6;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 12px 25px;
+}
+
+a.log-in:hover {
+    background-color: #ecf3fc;
+    color: #7A86B6;
+    text-decoration: none;
+}
+
+.search-bar {
+    float: right;
+    margin-right: 60px;
+    line-height: 90px;
+    letter-spacing: 1px;
+}
+
+.input-text {
+    border-radius: 15px;
+    border: #fff solid 10px;
+    padding: 0px 17px;
+    color: #000;
+    height: 32px;
+    position: relative;
+    width: 100%;
+}
+
+/* .search-icon {
+    position: absolute;
+    margin-left: -25px;
+    z-index: 1000;
+    background: transparent;
+    padding: 3px 0px 0px 0px;
+    color: #b7b7b7;
+} */
+
+ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+}
+
+/* CSS untuk container-content */
+.bg {
+    background: url(images/bg-content.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+}
+
+.text1-bg {
+    color: #293462;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 50px;
+    letter-spacing: 15px;
+    text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73);
+}
+
+.text2-bg {
+    color: #DBE6FD;
+    font-family: 'Russo One', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 10px;
+    letter-spacing: 15px;
+    text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73);
+}
+
+.text3-bg {
+    color: #DBE6FD;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 7px;
+}
+
+/* CSS untuk container-content2 */
+
+.bg2 {
+    background: url(images/news-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 530px;
+    opacity: 10.0;
+}
+
+.text-bg2 {
+    color: #7A86B6;
+    font-family: 'Splash', cursive;
+    font-size: 40px;
+    margin-left: 240px;
+    padding-top: 50px;
+    letter-spacing: 15px;
+    /* text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73); */
+}
+
+hr {
+    width: 50%;
+    border: #34539d solid 4px;
+}
+
+.detail-box{
+    margin-left: -670px;
+    margin-top: 40px;
+}
+
+.detail-box h5 {
+    color: #293462;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    /* text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73); */
+}
+
+.detail-box p {
+    color: #293462;
+    font-style: italic;
+    text-align: center;
+}
+
+.container-content2 .bg2 .box {
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 320px;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+}
+
+.container-content2 .bg2 .box .img-box {
+    width: 85px;
+    padding: 15px;
+}
+
+.detail-box2{
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.detail-box2 h5 {
+    color: #293462;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.detail-box2 p {
+    color: #293462;
+    font-style: italic;
+    text-align: center;
+}
+
+.container-content2 .bg2 .box2 {
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+}
+
+.container-content2 .bg2 .box2 .img-box2 {
+    width: 85px;
+    padding: 15px;
+}
+
+.detail-box3{
+    margin-left: 780px;
+    margin-top: -317px;
+}
+
+.detail-box3 h5 {
+    color: #293462;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    /* text-shadow: 4px -2px 2px rgba(184, 184, 172, 0.73); */
+}
+
+.detail-box3 p {
+    color: #293462;
+    font-style: italic;
+    text-align: center;
+}
+
+.container-content2 .bg2 .box3 {
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1050px;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+}
+
+.container-content2 .bg2 .box3 .img-box3 {
+    width: 85px;
+    padding: 15px;
+}
+
+/* CSS bagian footer */
+.footer-bg {
+    background-color: #293462;
+    padding: 30px 0px;
+}
+
+.footer h4.copyright {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #DBE6FD;
+    font-size: 15px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+
+/* CSS bagian sign-up */
+ .bg-signup {
+    background: url(images/bg-signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+} 
+
+.bg-signup .row h2.text-signup {
+    line-height: 80px;
+    display: inline-block;
+    margin-left: 200px;
+    letter-spacing: 4px;
+    font-size: 27px;
+    color: #293462;
+    font-style: italic;
+    font-family: 'Russo One', sans-serif;
+}
+
+.form-container {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 200px;
+}
+
+.form {
+    display: block;
+}
+
+.bg-signup .form-container form .form-group {
+    margin-bottom: 20px;
+}
+
+.bg-signup .form-container form .form-control {
+    border-radius: 0;
+    height: 35px;
+    width: 700px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bg-signup .form-container form button {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #293462;
+    border: 1px solid #293462;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* CSS bagian log-in */
+.bg-login {
+    background: url(images/bg-signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+} 
+
+.bg-login .row h2.text-login {
+    line-height: 80px;
+    display: inline-block;
+    margin-left: 200px;
+    letter-spacing: 4px;
+    font-size: 27px;
+    color: #293462;
+    font-style: italic;
+    font-family: 'Russo One', sans-serif;
+}
+
+.bg-login .form-container form button {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #293462;
+    border: 1px solid #293462;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.bg-login .form-container form .form-control {
+    border-radius: 0;
+    height: 35px;
+    width: 700px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bg-login .form-container form .form-group {
+    margin-bottom: 20px;
+}
+
+.bg-login .form-container form .form-group label a.forgotpw {
+    text-decoration: none;
+    color: #293462;
+    font-family: 'Thasadith', sans-serif;
+    letter-spacing: 2px;
+}
+
+.bg-login .form-container form .form-group label a.forgotpw:hover {
+    color: #DBE6FD;
+}
+
