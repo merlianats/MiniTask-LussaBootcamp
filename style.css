@@ -261,6 +261,8 @@ hr {
 .container-content2 .bg2 .box .img-box {
     width: 85px;
     padding: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
 
 .detail-box2{
@@ -298,6 +300,8 @@ hr {
 .container-content2 .bg2 .box2 .img-box2 {
     width: 85px;
     padding: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
 
 .detail-box3{
@@ -336,6 +340,8 @@ hr {
 .container-content2 .bg2 .box3 .img-box3 {
     width: 85px;
     padding: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
 
 /* CSS bagian footer */
